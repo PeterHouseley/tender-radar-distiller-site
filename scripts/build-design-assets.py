@@ -54,6 +54,30 @@ pursuit_file = """<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 980 64
   <g font-family=\"Courier New, monospace\" font-size=\"15\" font-weight=\"900\" fill=\"#efe6d2\"><text x=\"54\" y=\"592\" letter-spacing=\"2\">SHORTLISTED NOTICE → BID BURDEN → EVIDENCE MAP → STARTER RESPONSE</text></g>
 </svg>"""
 
+deadline_corridor = """<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1120 680\" role=\"img\" aria-labelledby=\"title desc\">
+  <title id=\"title\">Tender deadline corridor</title>
+  <desc id=\"desc\">A public procurement deadline corridor showing four live notices moving through clarification, evidence pack, approval and submission gates.</desc>
+  <defs>
+    <filter id=\"pinshadow\" x=\"-20%\" y=\"-20%\" width=\"140%\" height=\"150%\"><feDropShadow dx=\"0\" dy=\"18\" stdDeviation=\"14\" flood-color=\"#2b2118\" flood-opacity=\"0.24\"/></filter>
+    <pattern id=\"corridorGrid\" width=\"44\" height=\"44\" patternUnits=\"userSpaceOnUse\"><path d=\"M44 0H0v44\" fill=\"none\" stroke=\"#fbf6ea\" stroke-opacity=\"0.075\"/></pattern>
+  </defs>
+  <rect width=\"1120\" height=\"680\" rx=\"22\" fill=\"#251f18\"/>
+  <rect width=\"1120\" height=\"680\" rx=\"22\" fill=\"url(#corridorGrid)\"/>
+  <path d=\"M92 156H1028M92 286H1028M92 416H1028M92 546H1028\" stroke=\"#fbf6ea\" stroke-opacity=\"0.16\" stroke-width=\"2\"/>
+  <g font-family=\"Courier New, monospace\" font-size=\"16\" font-weight=\"900\" letter-spacing=\"2\" fill=\"#efe6d2\"><text x=\"86\" y=\"82\">DEADLINE CORRIDOR / LIVE PROCUREMENT PURSUIT WINDOW</text><text x=\"776\" y=\"82\" fill=\"#ddb36b\">WEEK 33 SAMPLE</text></g>
+  <g font-family=\"Courier New, monospace\" font-size=\"14\" font-weight=\"900\" fill=\"#cdbb9d\"><text x=\"108\" y=\"124\">NOTICE FOUND</text><text x=\"340\" y=\"124\">CLARIFY</text><text x=\"548\" y=\"124\">EVIDENCE</text><text x=\"760\" y=\"124\">APPROVAL</text><text x=\"948\" y=\"124\">SUBMIT</text></g>
+  <g stroke=\"#b94d24\" stroke-width=\"4\" stroke-dasharray=\"10 12\" stroke-linecap=\"round\"><path d=\"M170 156C282 156 300 156 388 156S518 156 606 156S736 156 836 156S948 156 992 156\"/><path d=\"M170 286C250 286 280 294 360 292S482 268 574 268S720 300 808 300S914 286 970 286\" opacity=\".7\"/><path d=\"M170 416C246 416 300 430 374 430S502 412 610 412S750 456 840 456\" opacity=\".52\"/><path d=\"M170 546C248 546 288 520 372 520S500 552 586 552S710 546 774 546\" opacity=\".38\"/></g>
+  <g filter=\"url(#pinshadow)\" font-family=\"Aptos, Segoe UI, sans-serif\" fill=\"#221d17\">
+    <g transform=\"translate(104 174) rotate(-1.5)\"><rect width=\"292\" height=\"82\" rx=\"4\" fill=\"#fbf6ea\"/><rect width=\"12\" height=\"82\" fill=\"#29563d\"/><text x=\"28\" y=\"31\" font-size=\"18\" font-weight=\"900\">Facilities maintenance framework</text><text x=\"28\" y=\"58\" font-size=\"14\" font-weight=\"800\" fill=\"#6e6254\">11 days · fit 84 · pursue now</text></g>
+    <g transform=\"translate(306 304) rotate(1.2)\"><rect width=\"286\" height=\"82\" rx=\"4\" fill=\"#fbf6ea\"/><rect width=\"12\" height=\"82\" fill=\"#a96e1f\"/><text x=\"28\" y=\"31\" font-size=\"18\" font-weight=\"900\">Retrofit support call-off</text><text x=\"28\" y=\"58\" font-size=\"14\" font-weight=\"800\" fill=\"#6e6254\">clarification first · park 48h</text></g>
+    <g transform=\"translate(520 434) rotate(-.8)\"><rect width=\"292\" height=\"82\" rx=\"4\" fill=\"#fbf6ea\"/><rect width=\"12\" height=\"82\" fill=\"#8e2a21\"/><text x=\"28\" y=\"31\" font-size=\"18\" font-weight=\"900\">National multi-lot supply</text><text x=\"28\" y=\"58\" font-size=\"14\" font-weight=\"800\" fill=\"#6e6254\">evidence heavy · no-bid filed</text></g>
+    <g transform=\"translate(716 548) rotate(1.4)\"><rect width=\"294\" height=\"82\" rx=\"4\" fill=\"#fbf6ea\"/><rect width=\"12\" height=\"82\" fill=\"#29563d\"/><text x=\"28\" y=\"31\" font-size=\"18\" font-weight=\"900\">Content migration brief</text><text x=\"28\" y=\"58\" font-size=\"14\" font-weight=\"800\" fill=\"#6e6254\">approval ready · skeleton drafted</text></g>
+  </g>
+  <g font-family=\"Courier New, monospace\" font-weight=\"900\" text-anchor=\"middle\"><g transform=\"translate(980 184) rotate(-8)\"><circle r=\"58\" fill=\"none\" stroke=\"#7db58d\" stroke-width=\"5\"/><text y=\"-6\" font-size=\"15\" fill=\"#7db58d\">BID</text><text y=\"20\" font-size=\"22\" fill=\"#7db58d\">READY</text></g><g transform=\"translate(896 440) rotate(9)\"><circle r=\"52\" fill=\"none\" stroke=\"#e68a78\" stroke-width=\"5\"/><text y=\"-4\" font-size=\"14\" fill=\"#e68a78\">NO-BID</text><text y=\"18\" font-size=\"18\" fill=\"#e68a78\">SAVED</text></g></g>
+  <text x=\"86\" y=\"632\" font-family=\"Courier New, monospace\" font-size=\"16\" font-weight=\"900\" letter-spacing=\"2\" fill=\"#cdbb9d\">THE SERVICE SELLS CALENDAR CONTROL: WHAT TO CHASE, WHAT TO QUERY, WHAT TO DROP BEFORE THE WEEK DISAPPEARS.</text>
+</svg>"""
+
+
 economics_ledger = """<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1120 660\" role=\"img\" aria-labelledby=\"title desc\">
   <title id=\"title\">Tender pursuit economics ledger</title>
   <desc id=\"desc\">A procurement intelligence ledger comparing portal searching, practical triage and bid-starter escalation for small suppliers.</desc>
@@ -79,6 +103,7 @@ economics_ledger = """<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 11
 for name, svg in {
     "tender-triage-board.svg": triage_board,
     "pursuit-file-stack.svg": pursuit_file,
+    "deadline-corridor.svg": deadline_corridor,
     "tender-economics-ledger.svg": economics_ledger,
 }.items():
     path = OUT / name
