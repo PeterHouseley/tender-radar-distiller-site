@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 660" role="img" aria-labelledby="title desc">
+  <title id="title">Tender pursuit economics ledger</title>
+  <desc id="desc">A procurement intelligence ledger comparing portal searching, practical triage and bid-starter escalation for small suppliers.</desc>
+  <defs>
+    <filter id="drop" x="-15%" y="-15%" width="130%" height="140%"><feDropShadow dx="0" dy="20" stdDeviation="16" flood-color="#2b2118" flood-opacity="0.2"/></filter>
+    <pattern id="ledger" width="56" height="38" patternUnits="userSpaceOnUse"><path d="M0 38H56M56 0V38" fill="none" stroke="#2b2118" stroke-opacity="0.07"/></pattern>
+  </defs>
+  <rect width="1120" height="660" rx="24" fill="#efe6d2"/>
+  <rect width="1120" height="660" rx="24" fill="url(#ledger)"/>
+  <rect x="44" y="38" width="1032" height="584" rx="12" fill="#fbf6ea" stroke="#2b2118" stroke-opacity="0.25" filter="url(#drop)"/>
+  <text x="78" y="88" font-family="Courier New, monospace" font-size="20" font-weight="900" letter-spacing="4" fill="#6f2718">SUPPLIER TIME LEDGER / WEEKLY PURSUIT ECONOMICS</text>
+  <text x="78" y="138" font-family="Georgia, serif" font-size="48" font-weight="900" letter-spacing="-2" fill="#221d17">The commercial case in one page.</text>
+  <g font-family="Aptos, Segoe UI, sans-serif" font-size="18" fill="#221d17">
+    <g transform="translate(78 190)"><rect width="286" height="310" fill="#f4ead8" stroke="#cdbb9d"/><rect width="286" height="52" fill="#8e2a21"/><text x="22" y="34" font-family="Courier New, monospace" font-size="15" font-weight="900" fill="#fff">WITHOUT RADAR</text><text x="22" y="104" font-family="Georgia, serif" font-size="68" font-weight="900" fill="#8e2a21">6–8h</text><text x="22" y="142" font-weight="850">lost to portal sifting</text><path d="M22 182H252M22 222H238M22 262H184" stroke="#2b2118" stroke-width="7" stroke-opacity=".28"/><text x="22" y="292" font-family="Courier New, monospace" font-size="14" font-weight="900" fill="#6e6254">false starts, expired lots, giant frameworks</text></g>
+    <g transform="translate(416 168)"><rect width="286" height="354" fill="#221d17"/><rect x="14" y="14" width="258" height="326" fill="none" stroke="#efe6d2" stroke-opacity=".22"/><text x="28" y="54" font-family="Courier New, monospace" font-size="15" font-weight="900" fill="#efe6d2">WEEKLY RADAR</text><text x="28" y="126" font-family="Georgia, serif" font-size="78" font-weight="900" fill="#fbf6ea">£79</text><text x="28" y="166" font-weight="850" fill="#efe6d2">one action shortlist</text><g font-family="Courier New, monospace" font-size="14" font-weight="900"><text x="28" y="222" fill="#7db58d">PURSUE: 1–3 realistic</text><text x="28" y="260" fill="#ddb36b">PARK: watch / clarify</text><text x="28" y="298" fill="#e68a78">IGNORE: save the week</text></g></g>
+    <g transform="translate(754 190)"><rect width="286" height="310" fill="#f4ead8" stroke="#cdbb9d"/><rect width="286" height="52" fill="#29563d"/><text x="22" y="34" font-family="Courier New, monospace" font-size="15" font-weight="900" fill="#fff">WHEN IT IS WORTH IT</text><text x="22" y="104" font-family="Georgia, serif" font-size="68" font-weight="900" fill="#29563d">£250+</text><text x="22" y="142" font-weight="850">bid-starter file</text><path d="M22 184H252M22 224H238M22 264H202" stroke="#2b2118" stroke-width="7" stroke-opacity=".28"/><text x="22" y="292" font-family="Courier New, monospace" font-size="14" font-weight="900" fill="#6e6254">evidence map, buyer questions, first response</text></g>
+  </g>
+  <g stroke="#b94d24" stroke-width="5" stroke-linecap="round" stroke-dasharray="12 12" fill="none"><path d="M364 336C392 336 390 336 416 336"/><path d="M702 336C730 336 728 336 754 336"/></g>
+  <g transform="translate(762 70) rotate(7)"><circle cx="98" cy="98" r="78" fill="none" stroke="#b94d24" stroke-width="5"/><text x="52" y="88" font-family="Courier New, monospace" font-size="16" font-weight="900" fill="#b94d24">NO BID</text><text x="45" y="114" font-family="Courier New, monospace" font-size="16" font-weight="900" fill="#b94d24">TIME TAX</text></g>
+  <text x="78" y="574" font-family="Courier New, monospace" font-size="17" font-weight="900" letter-spacing="2" fill="#6e6254">LOW-COMMITMENT RADAR → PAID PROOF → OPTIONAL PURSUIT SUPPORT</text>
+</svg>
