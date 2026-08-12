@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 560" role="img" aria-labelledby="title desc">
+  <title id="title">Tender clarification window and pursuit clock</title>
+  <desc id="desc">A procurement dossier visual showing deadline pressure, clarification question windows, evidence checks and go/no-go decision timing.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="14" flood-color="#2b2118" flood-opacity="0.22"/>
+    </filter>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#2b2118" stroke-opacity=".07" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="920" height="560" fill="#efe6d2"/>
+  <rect x="24" y="22" width="872" height="516" fill="url(#grid)" stroke="#2b2118" stroke-opacity=".22"/>
+  <g filter="url(#shadow)">
+    <rect x="64" y="66" width="792" height="420" rx="6" fill="#fbf6ea" stroke="#2b2118" stroke-opacity=".28"/>
+    <rect x="64" y="66" width="792" height="54" fill="#2b2118"/>
+    <text x="92" y="101" font-family="Courier New, monospace" font-size="16" font-weight="900" fill="#fbf6ea" letter-spacing="2">CLARIFICATION WINDOW / BID CLOCK</text>
+    <text x="724" y="101" font-family="Courier New, monospace" font-size="14" font-weight="900" fill="#d8b36a">LIVE FILE</text>
+  </g>
+  <g transform="translate(102 154)">
+    <circle cx="146" cy="146" r="118" fill="#f3ead8" stroke="#2b2118" stroke-width="3"/>
+    <circle cx="146" cy="146" r="92" fill="none" stroke="#cbb99b" stroke-width="2" stroke-dasharray="5 8"/>
+    <path d="M146 146 L146 46 A100 100 0 0 1 232 196 Z" fill="#b94d24" opacity=".9"/>
+    <path d="M146 146 L232 196 A100 100 0 0 1 74 222 Z" fill="#a96e1f" opacity=".9"/>
+    <path d="M146 146 L74 222 A100 100 0 0 1 146 46 Z" fill="#29563d" opacity=".86"/>
+    <circle cx="146" cy="146" r="40" fill="#fbf6ea" stroke="#2b2118" stroke-width="3"/>
+    <line x1="146" y1="146" x2="146" y2="80" stroke="#2b2118" stroke-width="6" stroke-linecap="round"/>
+    <line x1="146" y1="146" x2="196" y2="174" stroke="#2b2118" stroke-width="6" stroke-linecap="round"/>
+    <text x="146" y="310" text-anchor="middle" font-family="Georgia, serif" font-size="27" font-weight="700" fill="#221d17">11 days left</text>
+    <text x="146" y="336" text-anchor="middle" font-family="Courier New, monospace" font-size="13" font-weight="900" fill="#6f2718" letter-spacing="1.5">CLARIFY BEFORE YOU BID</text>
+  </g>
+  <g transform="translate(414 152)">
+    <rect x="0" y="0" width="374" height="62" fill="#fffdf6" stroke="#cdbb9d"/>
+    <rect x="0" y="0" width="8" height="62" fill="#29563d"/>
+    <text x="26" y="25" font-family="Courier New, monospace" font-size="13" font-weight="900" fill="#29563d">QUESTION ONE</text>
+    <text x="26" y="48" font-family="Georgia, serif" font-size="22" font-weight="700" fill="#221d17">Is the incumbent TUPE data available?</text>
+    <rect x="0" y="82" width="374" height="62" fill="#fffdf6" stroke="#cdbb9d"/>
+    <rect x="0" y="82" width="8" height="62" fill="#a96e1f"/>
+    <text x="26" y="107" font-family="Courier New, monospace" font-size="13" font-weight="900" fill="#a96e1f">EVIDENCE BURDEN</text>
+    <text x="26" y="130" font-family="Georgia, serif" font-size="22" font-weight="700" fill="#221d17">3 case studies, insurance, social value</text>
+    <rect x="0" y="164" width="374" height="62" fill="#fffdf6" stroke="#cdbb9d"/>
+    <rect x="0" y="164" width="8" height="62" fill="#8e2a21"/>
+    <text x="26" y="189" font-family="Courier New, monospace" font-size="13" font-weight="900" fill="#8e2a21">NO-BID TRIGGER</text>
+    <text x="26" y="212" font-family="Georgia, serif" font-size="22" font-weight="700" fill="#221d17">Lot size above practical delivery capacity</text>
+  </g>
+  <g transform="translate(96 438)">
+    <rect x="0" y="0" width="724" height="40" fill="#f2ead9" stroke="#2b2118" stroke-opacity=".22"/>
+    <rect x="0" y="0" width="176" height="40" fill="#29563d"/>
+    <rect x="176" y="0" width="238" height="40" fill="#a96e1f"/>
+    <rect x="414" y="0" width="166" height="40" fill="#b94d24"/>
+    <rect x="580" y="0" width="144" height="40" fill="#8e2a21"/>
+    <text x="22" y="26" font-family="Courier New, monospace" font-size="12" font-weight="900" fill="#fbf6ea">FIT CONFIRMED</text>
+    <text x="198" y="26" font-family="Courier New, monospace" font-size="12" font-weight="900" fill="#fbf6ea">QUESTIONS RAISED</text>
+    <text x="436" y="26" font-family="Courier New, monospace" font-size="12" font-weight="900" fill="#fbf6ea">EVIDENCE CHECK</text>
+    <text x="602" y="26" font-family="Courier New, monospace" font-size="12" font-weight="900" fill="#fbf6ea">GO / NO-GO</text>
+  </g>
+  <text x="730" y="512" font-family="Courier New, monospace" font-size="14" font-weight="900" fill="#8e2a21" letter-spacing="1.8" transform="rotate(-8 730 512)">DEADLINE PRESSURE VISIBLE</text>
+</svg>
