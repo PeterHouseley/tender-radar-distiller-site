@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 680" role="img" aria-labelledby="title desc">
+  <title id="title">Weekly procurement operating clock</title>
+  <desc id="desc">A premium procurement intelligence visual showing Monday feed capture, Wednesday scoring and Friday pursue, park or ignore dossier delivery.</desc>
+  <defs>
+    <filter id="paperShadow" x="-15%" y="-15%" width="130%" height="145%"><feDropShadow dx="0" dy="22" stdDeviation="18" flood-color="#2b2118" flood-opacity="0.25"/></filter>
+    <pattern id="minuteGrid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0v40" fill="none" stroke="#2b2118" stroke-opacity="0.06"/></pattern>
+  </defs>
+  <rect width="1120" height="680" rx="26" fill="#efe6d2"/>
+  <rect width="1120" height="680" rx="26" fill="url(#minuteGrid)"/>
+  <rect x="48" y="42" width="1024" height="596" rx="16" fill="#fbf6ea" stroke="#2b2118" stroke-opacity="0.24" filter="url(#paperShadow)"/>
+  <text x="82" y="90" font-family="Courier New, monospace" font-size="18" font-weight="900" letter-spacing="4" fill="#6f2718">WEEKLY PROCUREMENT OPERATING CLOCK</text>
+  <text x="82" y="138" font-family="Georgia, serif" font-size="50" font-weight="900" letter-spacing="-2" fill="#221d17">A fixed rhythm beats portal panic.</text>
+  <g transform="translate(136 186)">
+    <circle cx="250" cy="250" r="214" fill="#f4ead8" stroke="#2b2118" stroke-opacity="0.32" stroke-width="3"/>
+    <circle cx="250" cy="250" r="168" fill="none" stroke="#cdbb9d" stroke-width="2" stroke-dasharray="8 10"/>
+    <circle cx="250" cy="250" r="12" fill="#221d17"/>
+    <g stroke="#221d17" stroke-width="4" stroke-linecap="round" opacity="0.75">
+      <path d="M250 250L250 92"/>
+      <path d="M250 250L386 328"/>
+      <path d="M250 250L126 356"/>
+    </g>
+    <g font-family="Courier New, monospace" font-weight="900" text-anchor="middle">
+      <g transform="translate(250 52)"><rect x="-76" y="-24" width="152" height="48" rx="2" fill="#221d17"/><text y="6" font-size="16" fill="#fbf6ea">MON / SCAN</text></g>
+      <g transform="translate(446 363)"><rect x="-92" y="-24" width="184" height="48" rx="2" fill="#a96e1f"/><text y="6" font-size="16" fill="#fff">WED / SCORE</text></g>
+      <g transform="translate(68 390)"><rect x="-88" y="-24" width="176" height="48" rx="2" fill="#29563d"/><text y="6" font-size="16" fill="#fff">FRI / FILE</text></g>
+    </g>
+    <g fill="none" stroke="#b94d24" stroke-width="10" stroke-linecap="round"><path d="M250 36A214 214 0 0 1 446 363"/><path d="M446 363A214 214 0 0 1 68 390" opacity="0.75"/><path d="M68 390A214 214 0 0 1 250 36" opacity="0.5"/></g>
+  </g>
+  <g transform="translate(650 196)" font-family="Aptos, Segoe UI, sans-serif" fill="#221d17">
+    <g transform="rotate(-1)"><rect width="346" height="96" fill="#f4ead8" stroke="#cdbb9d"/><rect width="12" height="96" fill="#221d17"/><text x="28" y="34" font-family="Georgia, serif" font-size="26" font-weight="900">Feed intake</text><text x="28" y="64" font-size="16" font-weight="800" fill="#6e6254">Find a Tender + Contracts Finder sweep</text></g>
+    <g transform="translate(22 132) rotate(1.2)"><rect width="346" height="96" fill="#fbf6ea" stroke="#cdbb9d"/><rect width="12" height="96" fill="#a96e1f"/><text x="28" y="34" font-family="Georgia, serif" font-size="26" font-weight="900">Score & clarify</text><text x="28" y="64" font-size="16" font-weight="800" fill="#6e6254">fit, evidence drag, deadline pressure</text></g>
+    <g transform="translate(-8 264) rotate(-.8)"><rect width="346" height="112" fill="#221d17"/><rect width="12" height="112" fill="#29563d"/><text x="28" y="38" font-family="Georgia, serif" font-size="28" font-weight="900" fill="#fbf6ea">Decision dossier</text><text x="28" y="70" font-size="16" font-weight="800" fill="#d8c9ad">pursue / park / ignore plus next moves</text><text x="28" y="96" font-family="Courier New, monospace" font-size="14" font-weight="900" fill="#7db58d">OPTIONAL: BID-STARTER FILE</text></g>
+  </g>
+  <text x="82" y="600" font-family="Courier New, monospace" font-size="16" font-weight="900" letter-spacing="2" fill="#6e6254">REPEATABLE RHYTHM → LOWER DECISION FRICTION → CLEAR WEEKLY REASON TO STAY SUBSCRIBED</text>
+</svg>
