@@ -119,7 +119,29 @@ evidence_matrix = """<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 118
   <text x=\"84\" y=\"632\" font-family=\"Courier New, monospace\" font-size=\"16\" font-weight=\"900\" letter-spacing=\"2\" fill=\"#6e6254\">THE WEEKLY FILE NOW NAMES THE PROOF GAP BEFORE THE SUPPLIER COMMITS TO WRITING.</text>
 </svg>"""
 
+buyer_decision_annex = """<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1180 720\" role=\"img\" aria-labelledby=\"title desc\">
+  <title id=\"title\">Buyer decision annex</title>
+  <desc id=\"desc\">An official procurement decision annex showing the shortlist cover sheet, no-bid rationale and bid-starter trigger for a supplier tender review.</desc>
+  <defs>
+    <filter id=\"annexShadow\" x=\"-18%\" y=\"-18%\" width=\"136%\" height=\"145%\"><feDropShadow dx=\"0\" dy=\"24\" stdDeviation=\"18\" flood-color=\"#2b2118\" flood-opacity=\"0.24\"/></filter>
+    <pattern id=\"annexGrid\" width=\"46\" height=\"46\" patternUnits=\"userSpaceOnUse\"><path d=\"M46 0H0v46\" fill=\"none\" stroke=\"#2b2118\" stroke-opacity=\"0.055\"/></pattern>
+  </defs>
+  <rect width=\"1180\" height=\"720\" rx=\"26\" fill=\"#efe6d2\"/>
+  <rect width=\"1180\" height=\"720\" rx=\"26\" fill=\"url(#annexGrid)\"/>
+  <rect x=\"54\" y=\"46\" width=\"1072\" height=\"628\" rx=\"14\" fill=\"#fbf6ea\" stroke=\"#2b2118\" stroke-opacity=\"0.28\" filter=\"url(#annexShadow)\"/>
+  <g font-family=\"Courier New, monospace\" font-weight=\"900\" letter-spacing=\"3\"><text x=\"86\" y=\"96\" font-size=\"18\" fill=\"#6f2718\">BUYER DECISION ANNEX / SAMPLE DOSSIER CLOSE</text><text x=\"878\" y=\"96\" font-size=\"15\" fill=\"#8e2a21\">INTERNAL FORWARD PACK</text></g>
+  <text x=\"86\" y=\"150\" font-family=\"Georgia, serif\" font-size=\"54\" font-weight=\"900\" letter-spacing=\"-2\" fill=\"#221d17\">Three pages that make the first sale obvious.</text>
+  <g transform=\"translate(96 208)\" filter=\"url(#annexShadow)\" font-family=\"Aptos, Segoe UI, sans-serif\" fill=\"#221d17\">
+    <g transform=\"rotate(-2.8)\"><rect width=\"300\" height=\"358\" fill=\"#f4ead8\" stroke=\"#cdbb9d\"/><rect width=\"300\" height=\"54\" fill=\"#221d17\"/><text x=\"22\" y=\"35\" font-family=\"Courier New, monospace\" font-size=\"15\" font-weight=\"900\" fill=\"#fbf6ea\">01 / SHORTLIST</text><text x=\"22\" y=\"100\" font-family=\"Georgia, serif\" font-size=\"44\" font-weight=\"900\" fill=\"#221d17\">7 viable pursuits</text><path d=\"M24 146H264M24 188H226M24 230H250\" stroke=\"#2b2118\" stroke-width=\"8\" stroke-opacity=\".3\"/><rect x=\"24\" y=\"276\" width=\"108\" height=\"38\" fill=\"#29563d\"/><text x=\"42\" y=\"301\" font-family=\"Courier New, monospace\" font-size=\"15\" font-weight=\"900\" fill=\"#fff\">PURSUE</text></g>
+    <g transform=\"translate(336 -18) rotate(1.6)\"><rect width=\"318\" height=\"398\" fill=\"#fbf6ea\" stroke=\"#2b2118\" stroke-opacity=\".32\"/><rect width=\"318\" height=\"54\" fill=\"#8e2a21\"/><text x=\"22\" y=\"35\" font-family=\"Courier New, monospace\" font-size=\"15\" font-weight=\"900\" fill=\"#fff\">02 / KILL REASONS</text><g font-size=\"18\" font-weight=\"850\"><text x=\"26\" y=\"104\">× incumbent-shaped framework</text><text x=\"26\" y=\"154\">× mandatory ISO evidence gap</text><text x=\"26\" y=\"204\">× lot size exceeds capacity</text><text x=\"26\" y=\"254\">? clarification before spend</text></g><circle cx=\"240\" cy=\"328\" r=\"48\" fill=\"none\" stroke=\"#8e2a21\" stroke-width=\"5\"/><text x=\"210\" y=\"335\" font-family=\"Courier New, monospace\" font-size=\"17\" font-weight=\"900\" fill=\"#8e2a21\">NO-BID</text></g>
+    <g transform=\"translate(708 26) rotate(3.2)\"><rect width=\"300\" height=\"358\" fill=\"#f4ead8\" stroke=\"#cdbb9d\"/><rect width=\"300\" height=\"54\" fill=\"#29563d\"/><text x=\"22\" y=\"35\" font-family=\"Courier New, monospace\" font-size=\"15\" font-weight=\"900\" fill=\"#fff\">03 / STARTER TRIGGER</text><text x=\"22\" y=\"104\" font-family=\"Georgia, serif\" font-size=\"54\" font-weight=\"900\" fill=\"#29563d\">£250+</text><text x=\"22\" y=\"144\" font-size=\"19\" font-weight=\"850\">when a notice survives</text><path d=\"M24 196H264M24 238H232M24 280H246\" stroke=\"#2b2118\" stroke-width=\"8\" stroke-opacity=\".3\"/><rect x=\"24\" y=\"306\" width=\"160\" height=\"32\" fill=\"#221d17\"/><text x=\"36\" y=\"328\" font-family=\"Courier New, monospace\" font-size=\"14\" font-weight=\"900\" fill=\"#fbf6ea\">REQUEST PACK</text></g>
+  </g>
+  <g stroke=\"#b94d24\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-dasharray=\"12 12\" fill=\"none\"><path d=\"M378 388C408 388 402 388 432 388\"/><path d=\"M750 388C782 388 774 388 804 388\"/></g>
+  <text x=\"86\" y=\"632\" font-family=\"Courier New, monospace\" font-size=\"16\" font-weight=\"900\" letter-spacing=\"2\" fill=\"#6e6254\">SAMPLE DOSSIER → FORWARDABLE DECISION PACK → NATURAL BID-STARTER ESCALATION</text>
+</svg>"""
+
 for name, svg in {
+    "buyer-decision-annex.svg": buyer_decision_annex,
     "tender-triage-board.svg": triage_board,
     "pursuit-file-stack.svg": pursuit_file,
     "deadline-corridor.svg": deadline_corridor,
