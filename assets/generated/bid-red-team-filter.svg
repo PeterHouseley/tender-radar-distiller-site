@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="720" viewBox="0 0 1180 720" role="img" aria-labelledby="title desc">
+  <title id="title">Tender red-team filter</title>
+  <desc id="desc">Procurement red-team filter showing opportunity evidence, traps, red flags and a clean pursue or no-bid decision.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="24" stdDeviation="20" flood-color="#2a1e16" flood-opacity=".26"/></filter>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0v42" fill="none" stroke="#2b241c" stroke-opacity=".08"/></pattern>
+  </defs>
+  <rect width="1180" height="720" rx="42" fill="#efe6d2"/>
+  <rect x="28" y="28" width="1124" height="664" rx="32" fill="url(#grid)"/>
+  <g filter="url(#shadow)">
+    <rect x="74" y="70" width="1032" height="576" rx="10" fill="#fbf6ea" stroke="#2b241c" stroke-opacity=".22"/>
+  </g>
+  <text x="112" y="132" font-family="Georgia,serif" font-size="46" font-weight="700" fill="#221d17">bid red-team filter</text>
+  <text x="112" y="170" font-family="Aptos,Segoe UI,sans-serif" font-size="21" fill="#6e6254">the weekly dossier names the traps before a supplier commits a bid week</text>
+  <g font-family="Courier New,monospace" font-size="15" font-weight="900" letter-spacing=".11em">
+    <rect x="112" y="222" width="956" height="54" fill="#2b241c"/>
+    <text x="136" y="256" fill="#fbf6ea">CHECKPOINT</text><text x="380" y="256" fill="#fbf6ea">QUESTION</text><text x="720" y="256" fill="#fbf6ea">DECISION</text><text x="900" y="256" fill="#fbf6ea">OWNER</text>
+  </g>
+  <g font-family="Aptos,Segoe UI,sans-serif" font-size="19" fill="#221d17">
+    <g transform="translate(112 304)"><rect width="956" height="72" fill="#f3ead8" stroke="#cdbb9d"/><text x="24" y="44" font-weight="800">SME fit</text><text x="268" y="44">Can this be bid without a framework seat?</text><text x="608" y="44" fill="#29563d" font-weight="900">PURSUE</text><text x="788" y="44">Operator</text></g>
+    <g transform="translate(112 394)"><rect width="956" height="72" fill="#fff8e7" stroke="#cdbb9d"/><text x="24" y="44" font-weight="800">Evidence drag</text><text x="268" y="44">Are two current case studies mandatory?</text><text x="608" y="44" fill="#a96e1f" font-weight="900">CLARIFY</text><text x="788" y="44">Bid lead</text></g>
+    <g transform="translate(112 484)"><rect width="956" height="72" fill="#f1ddd4" stroke="#cdbb9d"/><text x="24" y="44" font-weight="800">Hidden trap</text><text x="268" y="44">TUPE, incumbent or oversized lot risk?</text><text x="608" y="44" fill="#8e2a21" font-weight="900">NO-BID</text><text x="788" y="44">Director</text></g>
+  </g>
+  <g transform="translate(822 92) rotate(-8)">
+    <rect width="210" height="82" rx="4" fill="none" stroke="#8e2a21" stroke-width="5"/>
+    <text x="25" y="34" font-family="Courier New,monospace" font-size="18" font-weight="900" fill="#8e2a21">RED-TEAMED</text>
+    <text x="39" y="59" font-family="Courier New,monospace" font-size="15" font-weight="900" fill="#8e2a21">BEFORE BID</text>
+  </g>
+</svg>
