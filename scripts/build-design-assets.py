@@ -141,6 +141,37 @@ buyer_decision_annex = """<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 
 </svg>"""
 
 for name, svg in {
+    "bid-no-bid-scorecard.svg": """<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1180 720\" role=\"img\" aria-labelledby=\"title desc\">
+  <title id=\"title\">Bid no-bid scorecard</title>
+  <desc id=\"desc\">A procurement dossier scorecard showing a tender opportunity scored across buyer fit, evidence readiness, margin, delivery risk and deadline pressure before a pursue or no-bid recommendation.</desc>
+  <defs>
+    <filter id=\"scoreShadow\" x=\"-18%\" y=\"-18%\" width=\"136%\" height=\"145%\"><feDropShadow dx=\"0\" dy=\"24\" stdDeviation=\"18\" flood-color=\"#2b2118\" flood-opacity=\"0.25\"/></filter>
+    <pattern id=\"scoreGrid\" width=\"44\" height=\"44\" patternUnits=\"userSpaceOnUse\"><path d=\"M44 0H0v44\" fill=\"none\" stroke=\"#2b2118\" stroke-opacity=\"0.055\"/></pattern>
+  </defs>
+  <rect width=\"1180\" height=\"720\" rx=\"26\" fill=\"#efe6d2\"/><rect width=\"1180\" height=\"720\" rx=\"26\" fill=\"url(#scoreGrid)\"/>
+  <rect x=\"54\" y=\"46\" width=\"1072\" height=\"628\" rx=\"14\" fill=\"#fbf6ea\" stroke=\"#2b2118\" stroke-opacity=\"0.28\" filter=\"url(#scoreShadow)\"/>
+  <g font-family=\"Courier New, monospace\" font-weight=\"900\" letter-spacing=\"3\"><text x=\"86\" y=\"96\" font-size=\"18\" fill=\"#6f2718\">GO / NO-GO SCORECARD</text><text x=\"848\" y=\"96\" font-size=\"15\" fill=\"#8e2a21\">SUPPLIER DECISION GATE</text></g>
+  <text x=\"86\" y=\"150\" font-family=\"Georgia, serif\" font-size=\"54\" font-weight=\"900\" letter-spacing=\"-2\" fill=\"#221d17\">Every tender gets a reasoned call before writing starts.</text>
+  <g transform=\"translate(86 205)\" font-family=\"Aptos, Segoe UI, sans-serif\" fill=\"#221d17\">
+    <rect width=\"660\" height=\"360\" fill=\"#f4ead8\" stroke=\"#cdbb9d\"/>
+    <rect width=\"660\" height=\"54\" fill=\"#221d17\"/><text x=\"24\" y=\"35\" font-family=\"Courier New, monospace\" font-size=\"15\" font-weight=\"900\" fill=\"#fbf6ea\">SCORE DIMENSION</text><text x=\"430\" y=\"35\" font-family=\"Courier New, monospace\" font-size=\"15\" font-weight=\"900\" fill=\"#fbf6ea\">RATING</text>
+    <g font-size=\"18\" font-weight=\"850\">
+      <g transform=\"translate(0 74)\"><rect width=\"660\" height=\"48\" fill=\"#fbf6ea\"/><text x=\"24\" y=\"31\">Buyer and sector fit</text><rect x=\"360\" y=\"14\" width=\"238\" height=\"18\" fill=\"#d8c9ad\"/><rect x=\"360\" y=\"14\" width=\"202\" height=\"18\" fill=\"#29563d\"/><text x=\"612\" y=\"31\" text-anchor=\"end\" font-family=\"Courier New, monospace\" font-size=\"14\" font-weight=\"900\" fill=\"#29563d\">86</text></g>
+      <g transform=\"translate(0 132)\"><rect width=\"660\" height=\"48\" fill=\"#f4ead8\"/><text x=\"24\" y=\"31\">Evidence already on file</text><rect x=\"360\" y=\"14\" width=\"238\" height=\"18\" fill=\"#d8c9ad\"/><rect x=\"360\" y=\"14\" width=\"150\" height=\"18\" fill=\"#a96e1f\"/><text x=\"612\" y=\"31\" text-anchor=\"end\" font-family=\"Courier New, monospace\" font-size=\"14\" font-weight=\"900\" fill=\"#a96e1f\">63</text></g>
+      <g transform=\"translate(0 190)\"><rect width=\"660\" height=\"48\" fill=\"#fbf6ea\"/><text x=\"24\" y=\"31\">Delivery risk and capacity</text><rect x=\"360\" y=\"14\" width=\"238\" height=\"18\" fill=\"#d8c9ad\"/><rect x=\"360\" y=\"14\" width=\"112\" height=\"18\" fill=\"#8e2a21\"/><text x=\"612\" y=\"31\" text-anchor=\"end\" font-family=\"Courier New, monospace\" font-size=\"14\" font-weight=\"900\" fill=\"#8e2a21\">47</text></g>
+      <g transform=\"translate(0 248)\"><rect width=\"660\" height=\"48\" fill=\"#f4ead8\"/><text x=\"24\" y=\"31\">Margin and strategic value</text><rect x=\"360\" y=\"14\" width=\"238\" height=\"18\" fill=\"#d8c9ad\"/><rect x=\"360\" y=\"14\" width=\"178\" height=\"18\" fill=\"#29563d\"/><text x=\"612\" y=\"31\" text-anchor=\"end\" font-family=\"Courier New, monospace\" font-size=\"14\" font-weight=\"900\" fill=\"#29563d\">75</text></g>
+    </g>
+  </g>
+  <g transform=\"translate(800 214)\" filter=\"url(#scoreShadow)\">
+    <rect width=\"250\" height=\"288\" fill=\"#221d17\"/><rect x=\"18\" y=\"18\" width=\"214\" height=\"252\" fill=\"none\" stroke=\"#efe6d2\" stroke-opacity=\".25\"/>
+    <text x=\"36\" y=\"66\" font-family=\"Courier New, monospace\" font-size=\"14\" font-weight=\"900\" fill=\"#d8c9ad\">DECISION</text>
+    <text x=\"36\" y=\"140\" font-family=\"Georgia, serif\" font-size=\"64\" font-weight=\"900\" fill=\"#ddb36b\">PARK</text>
+    <text x=\"36\" y=\"184\" font-family=\"Aptos, Segoe UI, sans-serif\" font-size=\"18\" font-weight=\"850\" fill=\"#fbf6ea\">Clarify capacity and evidence gap before paid bid-starter work.</text>
+    <rect x=\"36\" y=\"226\" width=\"154\" height=\"32\" fill=\"#a96e1f\"/><text x=\"50\" y=\"247\" font-family=\"Courier New, monospace\" font-size=\"13\" font-weight=\"900\" fill=\"#fff\">48H REVIEW</text>
+  </g>
+  <g transform=\"translate(848 538) rotate(-8)\" font-family=\"Courier New, monospace\" text-anchor=\"middle\" font-weight=\"900\"><circle cx=\"105\" cy=\"54\" r=\"54\" fill=\"none\" stroke=\"#8e2a21\" stroke-width=\"5\"/><text x=\"105\" y=\"48\" fill=\"#8e2a21\" font-size=\"15\">NO BLIND</text><text x=\"105\" y=\"72\" fill=\"#8e2a21\" font-size=\"19\">BIDS</text></g>
+  <text x=\"86\" y=\"632\" font-family=\"Courier New, monospace\" font-size=\"16\" font-weight=\"900\" letter-spacing=\"2\" fill=\"#6e6254\">FIT + EVIDENCE + RISK + MARGIN → PURSUE, PARK OR KILL WITH A WRITTEN REASON.</text>
+</svg>""",
     "buyer-decision-annex.svg": buyer_decision_annex,
     "tender-triage-board.svg": triage_board,
     "pursuit-file-stack.svg": pursuit_file,
