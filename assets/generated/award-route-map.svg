@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 720" role="img" aria-labelledby="title desc">
+  <title id="title">Tender award route map</title>
+  <desc id="desc">An official procurement route-to-award map showing buyer route, evaluation weighting, evidence readiness and next actions for shortlisted tenders.</desc>
+  <defs>
+    <filter id="routeShadow" x="-16%" y="-16%" width="132%" height="142%"><feDropShadow dx="0" dy="24" stdDeviation="18" flood-color="#2b2118" flood-opacity="0.24"/></filter>
+    <pattern id="routeGrid" width="48" height="42" patternUnits="userSpaceOnUse"><path d="M0 42H48M48 0V42" fill="none" stroke="#2b2118" stroke-opacity="0.06"/></pattern>
+  </defs>
+  <rect width="1180" height="720" rx="26" fill="#efe6d2"/><rect width="1180" height="720" rx="26" fill="url(#routeGrid)"/>
+  <rect x="54" y="46" width="1072" height="628" rx="14" fill="#fbf6ea" stroke="#2b2118" stroke-opacity="0.27" filter="url(#routeShadow)"/>
+  <text x="86" y="96" font-family="Courier New, monospace" font-size="18" font-weight="900" letter-spacing="4" fill="#6f2718">AWARD ROUTE MAP / PROCUREMENT ROUTE-TO-WIN</text>
+  <text x="86" y="150" font-family="Georgia, serif" font-size="54" font-weight="900" letter-spacing="-2" fill="#221d17">Can this notice become a winnable bid?</text>
+  <g transform="translate(94 206)" font-family="Aptos, Segoe UI, sans-serif" fill="#221d17">
+    <rect width="992" height="64" fill="#221d17"/><g fill="#fbf6ea" font-family="Courier New, monospace" font-size="15" font-weight="900"><text x="24" y="40">NOTICE</text><text x="300" y="40">BUYER ROUTE</text><text x="518" y="40">WEIGHTING</text><text x="704" y="40">PROOF STATUS</text><text x="874" y="40">ACTION</text></g>
+    <g font-size="18" font-weight="830">
+      <g transform="translate(0 86)"><rect width="992" height="78" fill="#f4ead8" stroke="#cdbb9d"/><rect width="12" height="78" fill="#29563d"/><text x="26" y="34" font-family="Georgia, serif" font-size="23" font-weight="900">Facilities framework</text><text x="26" y="58" fill="#6e6254" font-size="15">SME-friendly lot</text><text x="300" y="48">Open call-off</text><text x="518" y="48">Quality 70%</text><text x="704" y="48">2 case studies ready</text><text x="874" y="48" fill="#29563d" font-family="Courier New, monospace" font-weight="900">PURSUE</text></g>
+      <g transform="translate(0 184)"><rect width="992" height="78" fill="#fbf6ea" stroke="#cdbb9d"/><rect width="12" height="78" fill="#a96e1f"/><text x="26" y="34" font-family="Georgia, serif" font-size="23" font-weight="900">Retrofit support</text><text x="26" y="58" fill="#6e6254" font-size="15">scope unclear</text><text x="300" y="48">Clarification window</text><text x="518" y="48">Method 45%</text><text x="704" y="48">policy dates missing</text><text x="874" y="48" fill="#a96e1f" font-family="Courier New, monospace" font-weight="900">ASK</text></g>
+      <g transform="translate(0 282)"><rect width="992" height="78" fill="#f4ead8" stroke="#cdbb9d"/><rect width="12" height="78" fill="#8e2a21"/><text x="26" y="34" font-family="Georgia, serif" font-size="23" font-weight="900">National multi-lot</text><text x="26" y="58" fill="#6e6254" font-size="15">incumbent shaped</text><text x="300" y="48">Oversized route</text><text x="518" y="48">Price 60%</text><text x="704" y="48">ISO gap</text><text x="874" y="48" fill="#8e2a21" font-family="Courier New, monospace" font-weight="900">NO-BID</text></g>
+    </g>
+  </g>
+  <g transform="translate(806 566) rotate(-7)" font-family="Courier New, monospace" font-weight="900" text-anchor="middle"><circle cx="92" cy="50" r="52" fill="none" stroke="#29563d" stroke-width="5"/><text x="92" y="43" fill="#29563d" font-size="14">ROUTE</text><text x="92" y="68" fill="#29563d" font-size="19">FILED</text></g>
+  <text x="86" y="632" font-family="Courier New, monospace" font-size="16" font-weight="900" letter-spacing="2" fill="#6e6254">BUYER ROUTE → SCORING REALITY → EVIDENCE READINESS → NEXT ACTION NAMED</text>
+</svg>
